@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    outline:none;
+    scroll-behavior:smooth;
+    
+}
+:root{
+    --bg-color:#0e0101ea;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+body{
+    background:var(--second-bg-color);
+    color:var(--text-color);
+}
+.header-area{
+margin-top: 10px;
+}
+.logo h3{
+    color:#f54e24ea;
+    margin:0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a{
+    color:var(--text-color);
+    text-decoration: none;
+    padding:5px 8px;
+    text-transform: uppercase;
+    transition:0.4s;
+}
+.menu ul li a:hover{
+    color:#ed7051ea;
+}
+#active{
+    color:#ed7051ea;
+}
+.search [type=search]{
+    border-radius: 15px;
+    text-align:center;
+    border:none;
+    height:30px;
+}
+.search [type=button]{
+    border-radius: 15px;
+    text-align:center;
+    border:none;
+    width:70px;
+    height:30px;
+}
+.intro-area{
+    margin-top: 50px;
+    
+}
+.intro-content{
+    padding:5px 10px;
+    margin-bottom: 0;
+}
+.intro-content p{
+     font-size:17px;
+   /* padding:5px 10px;*/
+   margin-top:20px;
+}
+.intro-area img{
+    width:100%;
+    height:300px;
+}
+.about-area{
+    padding:100px 0px;
+    background: var(--second-bg-color);
+}
+.about-area img{
+    width:100%;
+    height:300px;
+}
+.about-content{
+    padding:5px 20px;
+}
+.about-content h3{
+    text-transform: uppercase;
+}
+.about-content p{
+    font-size:15px;
+    padding:20px 0px;
+}
+.services-area{
+   padding:80px 0px;
+    /*background:var(--second-bg-color);*/
+}
+.services-area h2{
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+.services-content img{
+   text-align: center;
+   margin:0 auto;
+}
+.contact-area{
+    background:var(--second-bg-color);
+    padding:50px;
+    padding-top:100px;
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+
+}
+.segment-title{
+    text-align:center;
+}
+.form{
+    text-align:center;
+}
+
+.form input[type=text]{
+    background:#273a71;
+    border:0;
+    width:48%;
+    padding:5px 10px;
+    border-radius:5px;
+    color:#fff;
+    }
+    .form input[type=email]{
+    background:#273a71;
+    border:0;
+    width:48%;
+    padding:5px 10px;
+    border-radius:5px;
+    color:#fff;
+    }
+    .form textarea{
+    width:96%;
+    height:300px;
+    background:#273a71;
+    border:0;
+    padding:5px 10px;
+    border-radius:5px;
+    margin-top:15px;
+    color:#fff;
+    }
+    .form input[type=button]{
+    background:#f47311;
+    border:0;
+    border-radius:5px;
+    border-bottom:3px solid #d46906;
+    color:#fff;
+    margin-top:15px;
+    padding:5px 20px;
+    }
