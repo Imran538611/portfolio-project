@@ -1,5 +1,11 @@
 img/
 css/bootstrap.min.css
+<<<<<<< HEAD
 *.png
 *.jpg
 js/bootstrap.min.js
+=======
+js/bootstrap.min.js
+*.png
+*.jpg
+>>>>>>> 3504e78e270a515d4b75efdc0d971781e59974b8
