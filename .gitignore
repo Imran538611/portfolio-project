@@ -1,2 +1,5 @@
 img/
 css/bootstrap.min.css
+js/bootstrap.min.js
+*.png
+*.jpg
